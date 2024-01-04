@@ -1,0 +1,22 @@
+# mynginx-ingress.yaml
+ 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations: 
+    
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: mynginx-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  # - host: -> domain이 없는 경우 생략 가능
+    - http:
+        paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: myweb
+              port:
+                number: 80
