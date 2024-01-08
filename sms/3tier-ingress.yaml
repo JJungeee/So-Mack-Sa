@@ -1,0 +1,46 @@
+# 3tier-ingress.yaml
+ 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations: 
+    
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: mynginx-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: www.sms.co.kr 
+      http:
+        paths:
+        - path: /sale
+          pathType: Prefix
+          backend:
+            service:
+              name: mywas
+              port:
+                number: 8080
+        
+        - path: /purchase
+          pathType: Prefix
+          backend:
+            service:
+              name: mywas2
+              port:
+                number: 8080
+        
+        - path: /sale2
+          pathType: Prefix
+          backend:
+            service:
+              name: myweb
+              port:
+                number: 80
+                
+        - path: /purchase2
+          pathType: Prefix
+          backend:
+            service:
+              name: myweb2
+              port:
+                number: 80
