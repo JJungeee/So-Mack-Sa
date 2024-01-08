@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myweb-sale
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myweb
+  template:
+    metadata:
+      labels:
+        app: myweb
+    spec:
+      containers:
+      - image: docker.io/maintndjs/web:v1.0
+        imagePullPolicy: Always
+        name: myweb
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: tz-seoul
+          mountPath: /etc/localtime
+      volumes:
+      - name: tz-seoul
+        hostPath:
+          path: /usr/share/zoneinfo/Asia/Seoul
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myweb-purchase
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myweb2
+  template:
+    metadata:
+      labels:
+        app: myweb2
+    spec:
+      containers:
+      - image: docker.io/maintndjs/web:v2.0
+        imagePullPolicy: Always
+        name: myweb2
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: tz-seoul
+          mountPath: /etc/localtime
+      volumes:
+      - name: tz-seoul
+        hostPath:
+          path: /usr/share/zoneinfo/Asia/Seoul
