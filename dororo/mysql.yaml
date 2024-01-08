@@ -63,7 +63,7 @@ spec:
           mountPath: /etc/mysql/conf.d
       containers:
       - name: mysql
-        image: maintndjs/db:1.1
+        image: maintndjs/db:v2.0
         ports:
         - name: mysql
           containerPort: 3306
