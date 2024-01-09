@@ -13,7 +13,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: docker.io/maintndjs/web:v1.0
+      - image: docker.io/maintndjs/web:v1.1
         imagePullPolicy: Always
         name: myweb
         ports:
