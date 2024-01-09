@@ -52,7 +52,7 @@ spec:
         app: mywas2
     spec:
       containers:
-      - image: docker.io/maintndjs/was:v2.0
+      - image: docker.io/maintndjs/was:v2.1
         imagePullPolicy: Always
         name: mywas2
         resources:
