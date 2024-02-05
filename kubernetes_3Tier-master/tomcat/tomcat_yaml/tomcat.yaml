@@ -1,0 +1,69 @@
+#tomcat.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mywas-sale
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mywas
+      role: project
+  template:
+    metadata:
+      labels:
+        app: mywas
+        role: project
+    spec:
+      containers:
+      - image: docker.io/maintndjs/was:v1.0
+        imagePullPolicy: Always
+        name: mywas
+        ports:
+        - containerPort: 8080
+        env:
+        - name: JAVA_OPTS
+          value: "-Xms1024m -Xmx1024m"
+        volumeMounts:
+        - name: tz-seoul
+          mountPath: /etc/localtime
+      volumes:
+      - name: tz-seoul
+        hostPath:
+          path: /usr/share/zoneinfo/Asia/Seoul
+---
+# tomcat2.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mywas-purchase
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mywas2
+      role: project
+  template:
+    metadata:
+      labels:
+        app: mywas2
+        role: project
+    spec:
+      containers:
+      - image: docker.io/maintndjs/was:v2.0
+        imagePullPolicy: Always
+        name: mywas2
+        ports:
+        - containerPort: 8080
+        env:
+        - name: JAVA_OPTS
+          value: "-Xms1024m -Xmx1024m"
+        volumeMounts:
+        - name: tz-seoul
+          mountPath: /etc/localtime
+      volumes:
+      - name: tz-seoul
+        hostPath:
+          path: /usr/share/zoneinfo/Asia/Seoul

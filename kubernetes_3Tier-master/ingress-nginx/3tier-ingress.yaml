@@ -1,0 +1,42 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+
+  ## for subnet networking
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: mywas
+            port:
+              number: 8080
+  
+  ## for super-user 
+  - host: www.sms.sale.org
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: myweb
+            port:
+              number: 80
+
+  ## for super-read-only
+  - host: www.sms.purchase.org
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: myweb2
+            port:
+              number: 80
