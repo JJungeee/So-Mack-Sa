@@ -65,6 +65,6 @@ WEB-WAS-DB 연동 \
 
 
 ## 🔗 구축 과정
-### Notion
+### ![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/7ebd1638-4cf4-44bb-a893-4a1062f0a249) Notion
  [Kubernetes 3-Tier Web-Service Project](https://www.notion.so/Kubernetes-3-Tier-Web-Service-Project-36422789fa5d469fa8a3f0809b8f17f2?pvs=4)
 
