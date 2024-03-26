@@ -58,7 +58,10 @@ WEB-WAS-DB 연동 \
 ### skill
 ![그림5](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/6624b90d-a35c-4240-aae7-401f666d9ecf)
 ### Web page
-![그림5](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/3723befb-99e7-423c-9331-a9c2638a816f)
+![그림12](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/7412332e-1410-4567-a589-d1ddd2246118)
+![제목 없는 다이어그램-굴개굴개의 복사본](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/ed1331cd-ddc3-40f4-9554-3a646bab18ef)
+
+
 
 
 ## 🔗 구축 과정
