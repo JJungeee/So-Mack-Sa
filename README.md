@@ -55,7 +55,10 @@ WEB-WAS-DB 연동 \
 ## 📖 상세 내용
 ### Infra Architecture
 ![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/6d517292-3852-4b08-b8da-04b7143ff1e1)
+### skill
 ![그림5](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/6624b90d-a35c-4240-aae7-401f666d9ecf)
+### Web page
+![그림5](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/3723befb-99e7-423c-9331-a9c2638a816f)
 
 
 ## 🔗 구축 과정
