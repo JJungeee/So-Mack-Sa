@@ -7,30 +7,23 @@ SoMacKSa
 
 > [ First 프로젝트 규칙 ] \
 \
-AWS Infra 구축 \
+컨테이너 환경구성 ( Web : NginX ,WAS : Tomcat , DB : MySQL)\
 WEB-WAS-DB 연동 \
- -> 컨테이너 기반 3-Tier 웹 서비스 운영 \
+ -> 3-Tier 구성 \
     ( WEB : 정적페이지 처리  , WAS : 동적페이지 처리, DB : 데이터 처리 ) \
 \
 부하에 따른 Autoscaling \
- HPA AutoScaling \
- CA 구성에 대한 부하 테스트 \
 \
-On-Premise - AWS 연결 \
-DEV-VPC Peering \
-\
-컨테이너 이미지 - ECR \
+컨테이너 이미지 - hub.docker.com \
 웹페이지의 정보 (가격, 수량 , 내용 등) 버전에 대한 변경사항 \
 \
-ArgoCD \
+서비스 호출 시 로컬호스트 (ubuntu 페이지)\
 \
-가산점 부여 사항 : On-Premise & AWS 클라우드와의 Biz 연계 구성
-
 
 ## 📆 진행 기간 
-2024.02.13 ~ 2024.03.18 (5주) \
-제출일 : 2024.03.18.월 오후 15시 \
-발표일 : 2024.03.22.금 
+2023.12.22 ~ 2024.01.15 (4주) \
+제출일 : 2024.01.15.화 오전 00시 \
+발표일 : 2024.01.18.목 
  
  
 ## 🛠 사용 기술
@@ -57,13 +50,15 @@ ArgoCD \
 
 
 ## 💁‍♂️ 담당 업무
-
+![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/d2d6dba2-b286-499f-aeec-04ba9eb12566)
+![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/dd24be06-6b44-449d-bcb4-acb072ade4c4)
+![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/2412da4e-1eaf-456a-93ca-ccb7a89605fa)
+![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/6c4c4d10-a896-4c6d-a173-e3ad96fe421b)
 
 
 ## 📖 상세 내용
 ### Infra Architecture
-![image](https://github.com/JJungeee/VintagePub/assets/142209884/e6194b9f-7fad-4f30-b585-651101c259de)
-
+![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/6d517292-3852-4b08-b8da-04b7143ff1e1)
 
 
 ## 🔗 구축 과정
