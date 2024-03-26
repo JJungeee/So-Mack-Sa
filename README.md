@@ -66,5 +66,5 @@ WEB-WAS-DB 연동 \
 
 ## 🔗 구축 과정
 ### Notion
- [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
+ [Kubernetes 3-Tier Web-Service Project](https://www.notion.so/Kubernetes-3-Tier-Web-Service-Project-36422789fa5d469fa8a3f0809b8f17f2?pvs=4)
 
