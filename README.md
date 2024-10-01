@@ -53,6 +53,8 @@ WEB-WAS-DB 연동 \
 <img src="https://img.shields.io/badge/drawio-F08705?style=for-the-badge&logo=drawio&logoColor=white">
 
 
+
+
 ## 💁‍♂️ 담당 업무
 ![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/d2d6dba2-b286-499f-aeec-04ba9eb12566)
 ![image](https://github.com/JJungeee/So-Mack-Sa/assets/142209884/dd24be06-6b44-449d-bcb4-acb072ade4c4)
