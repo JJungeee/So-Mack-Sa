@@ -29,15 +29,14 @@ WEB-WAS-DB 연동 \
 ## 🛠 사용 기술 stack
 
 ### OS 
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=TypeScript&logoColor=white">\
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=linux&logoColor=black"> 
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=linux&logoColor=black"> \
 <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/31c944ae3f82585bb9e6f61eb10a9c31a80a2c92046f59bade658d98dab6c317/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e75782d4643433632343f7374796c653d666f722d7468652d6261646765266c6f676f3d4c696e7578266c6f676f436f6c6f723d7768697465)
+
 
 
 
 ### Database 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/0efa8fcd6f09597585ca1b0acbd5f64e77cae7c209143ae65eb517374df7daeb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d7973716c2d3434373941313f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465)
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">\
 
 ### Container 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/60bd8f50238e3468fc6d8b54543b9a1e675eb448ddfe22107e013b8964e2f67a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3234393645443f7374796c653d666c61742d737175617265266c6f676f3d446f636b6572266c6f676f436f6c6f723d7768697465)
