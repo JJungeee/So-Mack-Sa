@@ -29,6 +29,8 @@ WEB-WAS-DB 연동 \
 ## 🛠 사용 기술
 
 ### OS 
+<img src="https://img.shields.io/badge/Ubuntu-#E95420?style=flat&logo=TypeScript&logoColor=white">
+<img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/31c944ae3f82585bb9e6f61eb10a9c31a80a2c92046f59bade658d98dab6c317/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e75782d4643433632343f7374796c653d666f722d7468652d6261646765266c6f676f3d4c696e7578266c6f676f436f6c6f723d7768697465)
 
 
@@ -41,7 +43,8 @@ WEB-WAS-DB 연동 \
 
 
 ### Team Collabolation Tool
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/ac8e50ec4dfc3513f4d66c023dcecf106f3d7e2d5ad70da9375cf71bd1987e93/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f74696f6e2d3030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465)
+ <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+ 
 
 ### Drawing Tool
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://camo.githubusercontent.com/dbdaa692167ef45698b2fdf349b51d3678255d76d835c804221fb7f563304d33/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f44726177696f2d3030303030303f7374796c653d666c61742d737175617265266c6f676f3d44726177696f266c6f676f436f6c6f723d7768697465)
